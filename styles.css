@@ -33,3 +33,38 @@ header, footer {
 article, aside {
     padding: 20px;
 }
+header {
+    background: #004080;
+    color: white;
+    padding: 15px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    font-weight: bold;
+}
+
+article {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+aside {
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #004080;
+    color: white;
+}
