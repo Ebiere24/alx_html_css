@@ -1,0 +1,63 @@
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            background-image: url('path/to/your/background-image.jpg'); /* Replace with your actual image URL or path */
+            background-size: cover; /* Covers the entire background */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents repeating */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+            text-align: center;
+            background-color: rgba(10, 10, 42, 0.8); /* Semi-transparent overlay for readability if needed */
+        }
+
+        .title {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            font-size: 16px;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .results {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .result-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 150px;
+        }
+
+        .pentagon {
+            width: 100px;
+            height: 100px;
+            background-color: #ff69b4; /* Pink */
+            clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .label {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #d3d3d3; /* Light gray for lorem text */
+        }

@@ -1,0 +1,140 @@
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            background-image: url('images/headphones_hero_1.jpg'); /* Replace with your actual background image path */
+            background-size: cover; /* Covers the entire background */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents repeating */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+            text-align: center;
+            background-color: rgba(10, 10, 42, 0.8); /* Semi-transparent overlay for readability if needed */
+        }
+
+        .title {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            font-size: 16px;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .results {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap; /* Allow wrapping for smaller screens */
+        }
+
+        .result-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 150px;
+            position: relative; /* For positioning the text over the image */
+        }
+
+        .pentagon-img {
+            width: 100px;
+            height: 100px;
+            display: block;
+        }
+
+        .percentage {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .label {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #d3d3d3; /* Light gray for lorem text */
+        }
+
+        /* Media query for tablets and smaller */
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 15px;
+            }
+
+            .title {
+                font-size: 24px;
+            }
+
+            .description {
+                font-size: 14px;
+                max-width: 100%;
+            }
+
+            .result-item {
+                width: 120px;
+            }
+
+            .pentagon-img {
+                width: 80px;
+                height: 80px;
+            }
+
+            .percentage {
+                font-size: 20px;
+            }
+
+            .label {
+                font-size: 12px;
+            }
+        }
+
+        /* Media query for mobile phones */
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px 10px;
+            }
+
+            .title {
+                font-size: 20px;
+            }
+
+            .description {
+                font-size: 12px;
+            }
+
+            .results {
+                flex-direction: column; /* Stack vertically on very small screens */
+                align-items: center;
+            }
+
+            .result-item {
+                width: 100%;
+                max-width: 150px;
+                margin-bottom: 20px;
+            }
+
+            .pentagon-img {
+                width: 100px;
+                height: 100px;
+            }
+
+            .percentage {
+                font-size: 22px;
+            }
+
+            .label {
+                font-size: 13px;
+            }
+        }
