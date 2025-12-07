@@ -6,7 +6,7 @@ Design Source & Specifications
 
 The entire project is a direct implementation of a detailed design provided in Figma. All layout, typography, and color choices are derived from the source file.
 
-Figma Project: [Figma File Link Here] (Please update this placeholder with the actual link).
+Figma Project: 
 
 Required Fonts: Source Sans Pro and Spin Cycle OT.
 
@@ -58,7 +58,7 @@ To clone this project and view the landing page in your browser:
 
 Clone the repository:
 
-git clone [https://github.com/alx-portfolio/alx_html_css.git](https://github.com/alx-portfolio/alx_html_css.git)
+git clone https://github.com/Ebiere24/alx_html_css.git
 
 
 Navigate to the project directory:
